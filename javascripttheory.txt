@@ -1,0 +1,46 @@
+developer mozilla- website for javascript
+wrox->website for javascript
+
+why javascript is an interpreter.?
+ans:-as compiler will not allow to run any code if an error is encountered.
+but interpreter runs the code line by line ,if any error is encountered so the code above the error will run.
+
+javascript is based on prototype
+convert asynchronous to synchronous ,,technologies used.
+
+executional/global context:- static .variables which are defined previously
+
+functional/local context:- dynamic context of function.
+
+event
+
+call stack:984 kb  :interpretation : when function is called the context of function is putted inside call stack .and is executed.then removed
+                    from the call stack;
+
+browser make a stack in which context is defined. also known as compilation.
+then call stack is made to run/execute;
+
+
+javascript-single threaded -single process executed,slows down it is single threaded because it has only one global/execution context.'
+
+there is only one call stack for a global context
+
+asynchronous task is done and taken away from normal execution and is independent.
+
+primitive data type:- by defaults : number, boolean, undefined, null, string,symbol(symbol is defined in new version of javascript)
+
+typeof(null)
+
+non-primitve: array(heterogenous items can be putted inside array),object(associative array:- element accessed by key values instead of index)
+object->
+ var a={
+    z:10,
+    c="avx",
+    x:50;
+
+}
+for accessing
+ob.a;
+ob["a";]
+                    
+
